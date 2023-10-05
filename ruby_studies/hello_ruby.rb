@@ -35,3 +35,5 @@ puts "Hello #{name}#{surname}!"
 number = gets.chomp.int_i
 
 puts "#{number}"
+
+one_hash = {language: 'ruby', ide_usage: 'vscode', os_usage: 'linux_pop-os'}
