@@ -32,6 +32,6 @@ void	ft_rev_int_tab(int *tab, int size)
 
 int main(void)
 {
-    ft_rev_int_tab(jn);
+    ft_rev_int_tab(1, 0);
     return(0);
 }
