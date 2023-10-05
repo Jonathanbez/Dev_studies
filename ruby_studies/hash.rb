@@ -7,3 +7,6 @@ puts one_hash[:language]
 
 print "Whats IDE in use? "
 puts one_hash[:ide_usage]
+
+pint "Whats OS in use? "
+puts one_hash[:os_usage]

@@ -6,9 +6,20 @@
 /*   By: jonathanbez <jonathanbez@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/04 11:17:44 by jbezerra          #+#    #+#             */
-/*   Updated: 2023/10/04 11:23:04 by jonathanbez      ###   ########.fr       */
+/*   Updated: 2023/10/05 00:11:08 by jonathanbez      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+
+
+
+
+
+
+
+
+
+
 
 #include <unistd.h>
 
