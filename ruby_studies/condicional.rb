@@ -1,5 +1,6 @@
-#Estruturas de controle condicionais em Ruby
+# Estruturas de controle condicionais em Ruby
 # if | esle | elsif | unless | case
+# Obs: '=' é operador de atribuição | '==' é operador de comparação
 
 # IF (verifica se a condiçao é verdadeira (true)
 # se sim executa as intruçoes dentro do corpo da estrutura)
