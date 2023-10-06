@@ -7,7 +7,8 @@
 
 print "Code using conditional IF!\n"
 day = 'friday'
-if day == 'friday'
+coffee_break = 'normal'
+if day != 'friday'
     coffee_break = 'special'
 end
 
@@ -18,7 +19,16 @@ print "End of code using IF!\n"
 
 # ELSE (se a if for falsa (se associa ao if) e executa as intruçoes 
 # dentro do seu corpo de estrutura)
- 
+print "\n\nNow, using ELSE!\n"
+day = 'sunday'
+if day == 'friday'
+    lunch = 'special'
+else
+    lunch = 'normal'
+end
+
+puts "Lunch is #{lunch} today\n"
+
 
 # ELSIF 
 
