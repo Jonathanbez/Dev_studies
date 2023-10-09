@@ -1,6 +1,8 @@
-# ELSIF 
+# ELSIF esle do if
+# OBS: para criar uma variavel que recebe integer use: var = Integer(gets.chomp)
+# OBS: Ou use var = gets.chom.to_i
 print "Digite sua idade: \n" 
-idade = gets.chomp.to_i
+idade = Integer(gets.chomp)
 
  if idade >= 18
     puts "Voce é um adulto."
