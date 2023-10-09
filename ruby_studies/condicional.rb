@@ -61,3 +61,6 @@ puts "You #{check_change} change the product"
 ###################################################
 
 # CASE 
+
+#parei no vido aula 3 do curso de ruby onebitcode
+#no minuto 15min
