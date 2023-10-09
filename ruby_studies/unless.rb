@@ -2,7 +2,7 @@
 # IF NOT é parecido com UNLESS
 product_status = 'closed'
 
-unless product_status == 'open'
+unless product_status == 'closed'
    check_change = 'can'
 else
    check_change = 'can not'
