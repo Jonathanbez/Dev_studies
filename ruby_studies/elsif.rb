@@ -1,6 +1,6 @@
 # ELSIF 
 print "Digite sua idade: \n" 
-idade = gets.chomp.int_i
+idade = gets.chomp.to_i
 
  if idade >= 18
     puts "Voce é um adulto."
