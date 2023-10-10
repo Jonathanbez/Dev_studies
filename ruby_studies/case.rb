@@ -12,6 +12,8 @@ date_of_birth = Date.parse(date_of_birth)
 
 date_of_birth = date_of_birth.strftime('%d/%m')
 
+signo = "Não encontrado"
+
 signo = case date_of_birth
 when '21/03'..'19/04'
     'Áries'
