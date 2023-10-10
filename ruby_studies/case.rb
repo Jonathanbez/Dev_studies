@@ -14,31 +14,31 @@ date_of_birth = date_of_birth.strftime('%d/%m')
 
 signo = "Não encontrado"
 
-signo = case date_of_birth
+case date_of_birth
 when '21/03'..'19/04'
-    'Áries'
+    signo = 'Áries'
 when '20/04'..'20/05'
-    'Touro'
+    signo = 'Touro'
 when '21/05'..'20/06'
     'Gêmeos'
 when '21/06'..'22/07'
-    'Câncer'
+    signo = 'Câncer'
 when '23/07'..'22/08'
-    'Leão'
+    signo = 'Leão'
 when '23/08'..'22/09'
-    'Virgem'
+    signo = 'Virgem'
 when '23/09'..'22/10'
-    'Libra'
+    signo = 'Libra'
 when '23/10'..'21/11'
-    'Escorpião'
+    signo = 'Escorpião'
 when '22/11'..'21/12'
-    'Sagitário'
+    signo = 'Sagitário'
 when '22/12'..'19/01'
-    'Capricórnio'
+    signo = 'Capricórnio'
 when '20/01'..'18/02'
-    'Aquário'
+    signo = 'Aquário'
 when '19/02'..'20/03'
-    'Peixes'
+    signo = 'Peixes'
 end
 
 puts "Seu signo é: #{signo}"
