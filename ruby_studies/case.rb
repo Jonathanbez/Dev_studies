@@ -1,4 +1,4 @@
-#CASE STATEMENT estrutura de controle de fluxo, executa um bloco especido
+# CASE STATEMENT estrutura de controle de fluxo, executa um bloco especido
 # de codigo de acordo com a expressão. Compara uma variavel com varios valores.
 
 require 'date'
@@ -8,9 +8,14 @@ print "Digite sua data de nascimento (DD/MM/YYYY): \n"
 
 date_of_birth = gets.chomp
 
+# Converte a string date_of_birth em objeto de classe`Date` usando o metodo
+# strptime (string parse time). Os argumentos "%d/%m/%Y" indica o formato de data/
+# Ver mais sobre Classe DATE: https://ruby-doc.org/stdlib-2.5.1/libdoc/date/rdoc/Date.html
+
 begin
   date_of_birth = Date.strptime(date_of_birth, "%d/%m/%Y")
 
+# Date.new cria um objeto Classe Data, dentro das parenteses esta o parametro.
   signo = case date_of_birth
           when Date.new(date_of_birth.year,3,21)..Date.new(date_of_birth.year,4,19)
             'Áries'
