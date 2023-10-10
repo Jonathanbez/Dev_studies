@@ -16,7 +16,7 @@ begin
 
 # Date.new cria um objeto Classe Data, dentro das parenteses está o parametro.
 # Ver mais sobre Classe DATE: https://ruby-doc.org/stdlib-2.5.1/libdoc/date/rdoc/Date.html
-signo = case date_of_birth
+sign = case date_of_birth
           when Date.new(date_of_birth.year,3,21)..Date.new(date_of_birth.year,4,19)
             'Áries'
           when Date.new(date_of_birth.year,4,20)..Date.new(date_of_birth.year,5,20)
@@ -45,7 +45,7 @@ signo = case date_of_birth
             'Não encontrado'
           end
 
-  puts "Seu signo é: #{signo}"
+  puts "Seu signo é: #{sign}"
 rescue ArgumentError
   puts "Data de nascimento inválida. Por favor, insira no formato DD/MM/YYYY."
 end
