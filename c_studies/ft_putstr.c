@@ -11,5 +11,5 @@ void ft_putstr(char *str)
 
 int main (void)
 {
-    ft_putstr("Olha, se você não me ama, então n");
+    ft_putstr("Olha, se você não me ama\nEntão não me ligue\nNão fique me fazendo queixa\n");
 } 
