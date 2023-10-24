@@ -1,14 +1,20 @@
+#include <unistd.h>
 #include <stdio.h>
 
-int ft_strlen(char *str)
+int	ft_strlen(char *str)
 {
-    int i;
+	int	len;
 
-    i = 0;
-    while (str[i] != '\0')
-    {
-        i++;
-        return (i);
-    }
-    
+	len = 0;
+	while (*str != '\0')
+	{
+		len++;
+		str++;
+	}
+	return (len);
+}
+
+int	main(void)
+{
+	printf("%d %d", ft_strlen("hel\nlo"), ft_strlen(""));
 }
