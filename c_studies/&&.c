@@ -8,5 +8,7 @@ int main()
     idade = 50;
 
     if ((idade >= 0) && (idade <= 100))
-    printf("%d", idade);
+        printf("%d", idade);
+    else
+        printf("%s", "Alem da conta");
 }
