@@ -10,5 +10,5 @@ int main()
     if ((idade >= 0) && (idade <= 100))
         printf("%d", idade);
     else
-        printf(/*"%s",*/ "Alem da conta");
+        printf("%s", "Alem da conta");
 }
