@@ -5,10 +5,10 @@
 int main()
 {
     int idade;
-    idade = 50;
+    idade = 101;
 
     if ((idade >= 0) && (idade <= 100))
         printf("%d", idade);
     else
-        printf("%s", "Alem da conta");
+        printf(/*"%s",*/ "Alem da conta");
 }
