@@ -14,6 +14,7 @@ int main()
     scanf("%d", &b);
 
     if (a > b)
-        print(%)
-
+        print("%d", a);
+    else
+        print("%d", b);
 }
