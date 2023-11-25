@@ -14,7 +14,7 @@ int main()
     scanf("%d", &b);
 
     if (a > b)
-        print("%d", a);
+        printf("%d", a);
     else
-        print("%d", b);
+        printf("%d", b);
 }
